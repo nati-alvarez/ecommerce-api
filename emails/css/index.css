@@ -1,0 +1,53 @@
+body {
+    line-height: 1.4em;
+    color: #2d2d2d;
+    margin: 0;
+    font-family: sans-serif;
+    background: #f7b650;
+    min-height: 1000px
+}
+
+header {
+    background:#3d3d3d;
+    color:#efefef;
+    padding:10px 5px;
+}
+
+header h1 {
+    text-align: center;
+    margin: 0;
+    font-size: 24px;
+    font-family:Kalam, sans-serif;
+}
+
+.order-container {
+    background: whitesmoke;
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px 20px;
+    margin-top: 50px;
+}
+
+.order-container h1 {
+    font-size: 18px;
+}
+
+.purchases {
+    border-collapse: collapse;
+    font-size: 14px;
+}
+
+.purchases thead {
+    background: #3d3d3d;
+    color: #efefef;
+}
+
+th, td {
+    padding: 5px 10px;
+}
+
+.total {
+    font-family: "Kalam", sans-serif;
+    font-size: 20px;
+    color: #8eb845;
+}

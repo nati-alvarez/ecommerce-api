@@ -1,0 +1,26 @@
+{
+  "name": "ecommerce-api",
+  "version": "1.0.0",
+  "description": "Backend API to my React.js storefront.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Natividad Alvarez",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^1.0.3",
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "dotenv": "^4.0.0",
+    "email-templates": "^3.3.4",
+    "express": "^4.16.2",
+    "jsonwebtoken": "^8.1.1",
+    "mongoose": "^5.0.1",
+    "nodemailer": "^4.4.2",
+    "passport": "^0.4.0",
+    "passport-jwt": "^3.0.1",
+    "pug": "^2.0.0-rc.4",
+    "stripe": "^5.4.0"
+  }
+}

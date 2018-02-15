@@ -1,0 +1,27 @@
+head
+    link(href="https://fonts.googleapis.com/css?family=Kalam" rel="stylesheet")
+    link(href="/css/index.css" rel="stylesheet")
+body
+    header
+        h1 Thanks For Shopping at 
+            img(src="/images/palm-tree.svg" style="vertical-align:middle;" width="45" height="45")
+            | &nbsp; Gamer's Gulf
+    div(class="order-container")
+        h1 Your Order
+        table(class="purchases")
+            thead
+                tr
+                    th Product
+                    th Qty.
+                    th Price
+            tbody
+                each item in purchases
+                    tr
+                        td #{item.item.name}
+                        td x#{item.qty}
+                        td $#{item.item.price / 100}                        
+
+        div(class="total")
+            h3 Your total: $#{total / 100}
+
+        p Your order tracking id is: <strong>#{orderId}</strong> <br> You can visit <a href="#">this link</a> to track the status of your order.
